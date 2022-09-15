@@ -1,4 +1,5 @@
 # InstaCart - Online Grocery Analysis
+![Instacart](https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/03/Instacart-Logo_0-1-1100x200.jpg)
 
 ## Description
 
