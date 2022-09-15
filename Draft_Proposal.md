@@ -1,4 +1,4 @@
-# InstaCart Online Grocery Analysis
+# InstaCart - Online Grocery Analysis
 
 ## Description
 
