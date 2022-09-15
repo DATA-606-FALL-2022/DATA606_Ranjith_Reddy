@@ -1,7 +1,7 @@
 
 ## Description
 
-Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our distinct food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it simple to stock your refrigerator and pantry with your personal favorites and staples when you need them. Personal shoppers review your order and do the in-store shopping and delivery for you after you select products via the Instacart app.
+Whether you shop from meticulously planned grocery lists or let whimsy guide your grazing, our distinct food rituals define who we are. Instacart, a grocery ordering and delivery app, aims to make it simple to stock your refrigerator and pantry with your personal favorites and staples when you need them. Personal shoppers review your order and do the in-store shopping and delivery for you after you select products via the Instacart application.
 
 
 ## Idea
@@ -27,16 +27,16 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   
 ## To do list
 
-Which day of the week most orders are placed?
-Which hour of the day most orders are placed?
-Which aisles are most busy?
-Which aisles are most busy in a given hour of the day?
-How often do people place grocery orders?
-Which department is most busy?
-Which departments are most busy in a given hour of the day?
-Which products have the most demand?
-Which products were added first to the cart majority times?
-Which hour of the day are each of the departments most busy?
+  - Which day of the week most orders are placed?
+  - Which hour of the day most orders are placed?
+  - Which aisles are most busy?
+  - Which aisles are most busy in a given hour of the day?
+  - How often do people place grocery orders?
+  - Which department is most busy?
+  - Which departments are most busy in a given hour of the day?
+  - Which products have the most demand?
+  - Which products were added first to the cart majority times?
+  - Which hour of the day are each of the departments most busy?
 
 ## Unit of analysis for project will be Instacart users
 
