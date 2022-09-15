@@ -27,7 +27,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   4. orders.csv(order_id, user_id, eval_set, order_number, order_dow, order_hour_of_delay, days_since_prior)
   5. products.csv(product_id, product_name, aisle_id, dept_id)
 
-## Wrapping up the data
+## Merging the data files
 
 
 
@@ -46,7 +46,6 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   - Which products were added first to the cart majority times?
   - Which hour of the day are each of the departments most busy?
 
-## Unit of analysis for project will be Instacart users
 
 ## Variables and Measures
 
