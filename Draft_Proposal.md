@@ -1,4 +1,5 @@
 # InstaCart - Online Grocery Analysis
+
 ![Instacart](https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/03/Instacart-Logo_0-1-1100x200.jpg)
 
 ## Description
@@ -25,6 +26,11 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   3. order_products.csv(order_id, product_id, add_to_cart_order, reordered)
   4. orders.csv(order_id, user_id, eval_set, order_number, order_dow, order_hour_of_delay, days_since_prior)
   5. products.csv(product_id, product_name, aisle_id, dept_id)
+
+## Wrapping up the data
+
+
+
   
   
 ## To do list
