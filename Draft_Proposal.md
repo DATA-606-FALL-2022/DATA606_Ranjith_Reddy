@@ -43,7 +43,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 ## Variables and Measures
 
-I would like to use:
+I would like to use these variables and measures:
   - user_id, 
   - department_name, 
   - reordered, 
