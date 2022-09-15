@@ -10,8 +10,8 @@ Whether you shop from meticulously planned grocery lists or let whimsy guide you
 
 - Huge demand and potential for online e-commerce. Companies have been leveraging data analysis to understand customer behavior, market trends, and machine learning for product recommendations. 
 - In this project, I would like to analyze online grocery shopping data to gain insights about customer purchase and market trends. 
-- I would like to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order. 
-- Further I would like to build a product recommender system that recommends products for a given user based on the available order history and similar user ratings. 
+- I would like to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order using classification techniques. 
+- Further I would like to build a product recommender system that recommends products for a given user based on the available order history and similar user ratings using association rule mining. 
 
 
 ## About Data
