@@ -20,7 +20,7 @@ Whether you shop from meticulously planned grocery lists or let whimsy guide you
 Source: An online grocery shopping dataset is taken from Kaggle for the project.  This can be found at: 
 https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset
 Size of the dataset is 1.28 GB with around 3.4 Million user transactions recorded.
-The dataset consists of 5 CSV files, each file describing a different aspect of the data including aisles, departments, orders, products and order behavior.
+The dataset consists of 5 CSV files, each file describing a different aspect of the data including aisles, departments, orders, products and order behavior. Each entity (customer, product, order, aisle, etc.) has an associated unique id. Most of the files and variable names should be self-explanatory.
   1. aisles.csv(aisle id, aisle description)
   2. departments.csv(dept id, dept name)
   3. order_products.csv(order_id, product_id, add_to_cart_order, reordered)
