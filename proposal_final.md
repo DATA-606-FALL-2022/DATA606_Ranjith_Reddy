@@ -44,24 +44,19 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 ## Variables and Measures
 
-I would like to use these variables and measures:
-  - user_id, 
-  - department_name, 
-  - reordered, 
-  - order_hour_of_day, 
-  - days_since_prior_order, 
-  - add_to_cart_order, 
-  - aisle_name
+I would like to use 'aisle_id',  'aisle',  'product_id', 'product_name', 'department_id',
+'department', 'order_id', 'add_to_cart_order', 'user_id', 'eval_set', 'order_number', 'order_dow', 'order_hour_of_day', 'days_since_prior_order' as features and target variable as 'reordered'.
 
 ## Techniques and Models
 
-To predict whether or not the user will reorder the item using classification algorithms such as:
+This project has 2 modules namely predicting reordered items, To get top 10 recommendations
+(1) To predict whether or not the user will reorder the item using classification algorithms such as 
   - Random forest
   - Support vector machine
   - Decision tree
   - K-nearest neighbor
   - Logistic Regression
-
+(2) To perform the product recommendations to be displayed on a product’s page, I would like to create clusters using K Means clustering algorithm. The project's objective is to group clusters and provide the top 10 products for each user.
 
 
 ## The project's flow
