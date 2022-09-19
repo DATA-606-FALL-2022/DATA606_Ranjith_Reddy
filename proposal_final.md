@@ -44,12 +44,12 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 ## Variables and Measures
 
-I would like to use 'aisle_id',  'aisle',  'product_id', 'product_name', 'department_id',
-'department', 'order_id', 'add_to_cart_order', 'user_id', 'eval_set', 'order_number', 'order_dow', 'order_hour_of_day', 'days_since_prior_order' as features and target variable as 'reordered'.
+I would like to use aisle_id,  aisle,  product_id, product_name, department_id,
+department, order_id, add_to_cart_order, user_id, eval_set, order_number, order_dow, order_hour_of_day, days_since_prior_order as feature variables and target variable as reordered.
 
 ## Techniques and Models
 
-This project has 2 modules namely predicting reordered items, To get top 10 recommendations
+This project has 2 modules namely predicting reordered items and to get top 10 recommendations. 
 (1) To predict whether or not the user will reorder the item using classification algorithms such as 
   - Random forest
   - Support vector machine
