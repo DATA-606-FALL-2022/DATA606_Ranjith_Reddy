@@ -26,11 +26,6 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   3. order_products.csv(order_id, product_id, add_to_cart_order, reordered)
   4. orders.csv(order_id, user_id, eval_set, order_number, order_dow, order_hour_of_delay, days_since_prior)
   5. products.csv(product_id, product_name, aisle_id, dept_id)
-
-## Merging the data files
-
-
-
   
   
 ## To do list
