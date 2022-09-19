@@ -63,7 +63,7 @@ This project has 2 modules namely predicting reordered items and to get top 10 r
 
 ## The project's flow
 
-After Exploratory Data Analysis, I would like to build a model using a pipeline which involves  pre-processing, feature selection, classification and post-processing. For optimization I would like to use hyper-parameter tuning to tune the model. To determine the accuracy of all the classifiers, a voting classifier and Boosting techniques will be used. 
+As there are 5 data files, I have merged products, aisle files using aisle_id, output dataframe is merged with department table using department_id, then merged order_products using product_id and finally with orders table with order_id. After performing Exploratory Data Analysis, I would like to build a model using a pipeline which involves  pre-processing, feature selection, classification and post-processing. For optimization I would like to use hyper-parameter tuning to tune the model. To determine the accuracy of all the classifiers, a voting classifier and Boosting techniques will be used. 
 
 
 ## Outcomes
