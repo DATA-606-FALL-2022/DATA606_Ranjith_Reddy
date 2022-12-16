@@ -72,5 +72,5 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
         - Organic Strawberries
         - Organic Baby Spinach
         - Organic Hass Avocado
-        - 14% of all orders contains bananas.
+        - 14% of all orders contains bananas.  
     - Organic products are frequently ordered.
