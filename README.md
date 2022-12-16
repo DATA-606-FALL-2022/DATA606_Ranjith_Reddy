@@ -91,3 +91,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - 61% probability of reordering an non-organic products.
    - No significance pattern of when organic products are bought most, than when products in general are bought most.
 
+### Purchasing behaviour on Departments and Aisles
+   - Count of products in each department
+   - ![count of products](https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/03/Instacart-Logo_0-1-1100x200.jpg)
+
