@@ -29,9 +29,12 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   4. orders.csv(order_id, user_id, eval_set, order_number, order_dow, order_hour_of_delay, days_since_prior)
   5. products.csv(product_id, product_name, aisle_id, dept_id)
 
+
+
 ## Exploratory Data Analysis.
 
 ### we have following DataFrames:
+
    - orders: This table includes all orders, namely prior, train, and test. It has single primary key (order_id).
    - order_products_train: This table includes training orders. It has a composite primary key (order_id and product_id) and indicates whether a product        in an order is a reorder or not (through the reordered variable).
    - order_products_prior : This table includes prior orders. It has a composite primary key (order_id and product_id) and indicates whether a product in      an order is a reorder or not (through the reordered variable).
@@ -40,6 +43,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - departments: This table includes all departments. It has a single primary key (department_id)
 
 ### Ratio of reordered products
+
   1. 58.9697% of products in prior orders were re-ordered.
   2. 59.8594% of products in train orders were re-ordered.
   3. 11.868056% of orders having no reordered product.
@@ -48,6 +52,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   6. Products placed first in cart are the products mostly reordered.
 
 ### Analyzing the count of reordered products in a basket
+
   1. Most baskets have from 0-5 reordered product
   2. Probability of a basket having 0 reordered products: 11.868056
   3. Probability of a basket having 1 reordered products: 10.262626
@@ -56,6 +61,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   6. Probability of a basket having 4 reordered products: 8.777965
 
 ### Time effects on purchasing behaviours
+
   - How Time affects the purchasing behaviour of customers?
   - Most orders are ordered on Day 0 and Day 1.
   - Orders are mostly ordered during day, from 9:00 AM to 4:00 PM.
@@ -67,13 +73,18 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   - The Next order has higher probability to be during 10 days from the current order.
 
 ### Association between days since last order and the ratio of reorders
+
   - 74 % of products bought at the same day of prev order, are reorders.
   - 69% of products bought after 1 week of prev order, are reorders
     #### Conculsion:
       - If future order will be at the same day of prev order, percentage of reorders in the future product is high.
       - If future order will be after a week from the prev order, percentage of reorders in the future product is high.
+
+
 ### Analyzing products
+
    #### How often a product is purchased?
+   
    - 5 Most Ordered Products
         - Banana
         - Bag of Organic Bananas
@@ -84,6 +95,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - Organic products are frequently ordered.
 
   #### How often a product is the first item purchased?
+  
    - 5 Most Add to Cart First Products
         - Banana
         - Bag of Organic Bananas
@@ -93,6 +105,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - 3.4% of the orders, Banana is being the first product added to cart. Products contianing milk have very high probability to be reordered. Organic          products have very high probability to be reordered.
 
 ### Analyzing Organic Prodcuts
+
    - 10% of instacart's products are organic products
    - 31.5% of bought products are organic products
    - 67% probability of reordering an organic products.
@@ -100,22 +113,44 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - No significance pattern of when organic products are bought most, than when products in general are bought most.
 
 ### Purchasing behaviour on Departments and Aisles
+
    - Count of products in each department
    - ![count of products](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Piechart.png)
 
 
 ## Modeling
 
+
 ### Logistic Regression
+
    - Based on the user_id we have predicted whether the user reordered the product or not.
+
+
    - ![logistic](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Logistic.png)
 
+
 ### K-means Clustering
+
    - Heatmap for share of purchases by aisle for the top 20 Instacart aisles.
+   
    - ![kmeans](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Kmeans.png)
+
 
 ### Product Recomender
 
    - Deployment of this application is done using Streamlit which is an open-source Python library that makes it easy to create and share beautiful,            custom web apps for machine learning and data science.
+   
    - ![pr](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/product%20recomender.png)
+
+
+## Conclusion
+   - Instacart is a web app and in web analytics , data reflects the way users behave, and the way they are encouraged to behave, by the decisions earlier      made. Market Basket analysis can be used to drive business decision making by using the association results. There are number of ways in which MBA        can be used :
+   - Associated Aisles should be placed together on the web application platform to boost the sales and reduce the time spent in finding that Aisle. For        instance, Cereal, lunch meat and Bread Aisle should be placed together, as they are highly associated.
+   - Associated products such as Organic Cilantro and limes should be put close to one another, to improve the customer shopping experience and improving      the store layout. Marketing can take benefit from these association relationship, for example target customers who buy Organic Cilantro with offers        on Lime, to encourage them to spend more on their shopping basket.
+
+
+## Future Scope
+   - For predicting whether a product is reordered or not, algorithms that predict binomial categories better can be used.
+   - For predicting a multi-category variable like department, other multi-nominal algorithms can be applied.
+   - New features could be created to help us generalize better on the test dataset thereby achieving better results.
 
