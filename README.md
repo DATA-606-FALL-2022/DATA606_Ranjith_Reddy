@@ -108,14 +108,14 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 ### Logistic Regression
    - Based on the user_id we have predicted whether the user reordered the product or not.
-   - ![logistic](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Piechart.png)
+   - ![logistic](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Logistic.png)
 
 ### K-means Clustering
    - Heatmap for share of purchases by aisle for the top 20 Instacart aisles.
-   - - ![kmeans](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Piechart.png)
+   - ![kmeans](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Kmeans.png)
 
 ### Product Recomender
 
    - Deployment of this application is done using Streamlit which is an open-source Python library that makes it easy to create and share beautiful,            custom web apps for machine learning and data science.
-   - - ![pr](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Piechart.png)
+   - ![pr](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/product%20recomender.png)
 
