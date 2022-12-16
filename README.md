@@ -84,3 +84,10 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
         - Organic Hass Avocado
    - 3.4% of the orders, Banana is being the first product added to cart. Products contianing milk have very high probability to be reordered. Organic          products have very high probability to be reordered.
 
+### Analyzing Organic Prodcuts
+   - 10% of instacart's products are organic products
+   - 31.5% of bought products are organic products
+   - 67% probability of reordering an organic products.
+   - 61% probability of reordering an non-organic products.
+   - No significance pattern of when organic products are bought most, than when products in general are bought most.
+
