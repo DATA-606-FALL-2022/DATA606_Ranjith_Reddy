@@ -28,3 +28,23 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   3. order_products.csv(order_id, product_id, add_to_cart_order, reordered)
   4. orders.csv(order_id, user_id, eval_set, order_number, order_dow, order_hour_of_delay, days_since_prior)
   5. products.csv(product_id, product_name, aisle_id, dept_id)
+
+## Exploratory Data Analysis.
+
+### Ratio of reordered products
+  1. 58.9697% of products in prior orders were re-ordered.
+  2. 59.8594% of products in train orders were re-ordered.
+  3. 11.868056% of orders having no reordered product.
+  4. 21.493998% of orders having all product re-ordered.
+  5. Most baskets contain from 5-8 products.
+  6. Products placed first in cart are the products mostly reordered.
+
+### Analyzing the count of reordered products in a basket
+  1. Most baskets have from 0-5 reordered product
+  2. Probability of a basket having 0 reordered products: 11.868056
+  3. Probability of a basket having 1 reordered products: 10.262626
+  4. Probability of a basket having 2 reordered products: 10.326791
+  5. Probability of a basket having 3 reordered products: 9.735981
+  6. Probability of a basket having 4 reordered products: 8.777965
+
+
