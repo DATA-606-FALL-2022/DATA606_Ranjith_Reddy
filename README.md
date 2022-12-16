@@ -31,6 +31,14 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 ## Exploratory Data Analysis.
 
+### we have following DataFrames:
+   - orders: This table includes all orders, namely prior, train, and test. It has single primary key (order_id).
+   - order_products_train: This table includes training orders. It has a composite primary key (order_id and product_id) and indicates whether a product        in an order is a reorder or not (through the reordered variable).
+   - order_products_prior : This table includes prior orders. It has a composite primary key (order_id and product_id) and indicates whether a product in      an order is a reorder or not (through the reordered variable).
+   - products: This table includes all products. It has a single primary key (product_id)
+   - aisles: This table includes all aisles. It has a single primary key (aisle_id)
+   - departments: This table includes all departments. It has a single primary key (department_id)
+
 ### Ratio of reordered products
   1. 58.9697% of products in prior orders were re-ordered.
   2. 59.8594% of products in train orders were re-ordered.
