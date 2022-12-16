@@ -58,3 +58,10 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
       - Send reminders of the most likely ordered products within a week, to catch the high prob of a customer to make their next order.
   - The Next order has higher probability to be during 10 days from the current order.
 
+### Association between days since last order and the ratio of reorders
+  - 74 % of products bought at the same day of prev order, are reorders.
+  - 69% of products bought after 1 week of prev order, are reorders
+    ## Conculsion:
+      - If future order will be at the same day of prev order, percentage of reorders in the future product is high.
+      - If future order will be after a week from the prev order, percentage of reorders in the future product is high.
+
