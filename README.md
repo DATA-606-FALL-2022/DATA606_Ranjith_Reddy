@@ -64,4 +64,13 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
     #### Conculsion:
       - If future order will be at the same day of prev order, percentage of reorders in the future product is high.
       - If future order will be after a week from the prev order, percentage of reorders in the future product is high.
-
+### Analyzing products
+   - How often a product is purchased?
+   - 5 Most Ordered Products
+        - Banana
+        - Bag of Organic Bananas
+        - Organic Strawberries
+        - Organic Baby Spinach
+        - Organic Hass Avocado
+        - 14% of all orders contains bananas.
+    - Organic products are frequently ordered.
