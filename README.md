@@ -150,7 +150,18 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 
 ## Future Scope
+
    - For predicting whether a product is reordered or not, algorithms that predict binomial categories better can be used.
    - For predicting a multi-category variable like department, other multi-nominal algorithms can be applied.
    - New features could be created to help us generalize better on the test dataset thereby achieving better results.
+
+
+## References
+
+
+- https://www.kaggle.com/code/nouranhany10/eda-on-instacart-data
+- https://www.kaggle.com/c/instacart-market-basket-analysis/data?select=sample_submission.csv.zip 
+- https://medium.com/mlearning-ai/instacart-market-basket-analysis-a726bb56d62
+
+
 
