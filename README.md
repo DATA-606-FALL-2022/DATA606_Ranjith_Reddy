@@ -47,4 +47,14 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
   5. Probability of a basket having 3 reordered products: 9.735981
   6. Probability of a basket having 4 reordered products: 8.777965
 
+### Time effects on purchasing behaviours
+  - How Time affects the purchasing behaviour of customers?
+  - Most orders are ordered on Day 0 and Day 1.
+  - Orders are mostly ordered during day, from 9:00 AM to 4:00 PM.
+  - Peak orders happens at Saturday afternoon (1:00PM), and Sunday morning (10:00AM)
+  - By more than 65%, People usually buy previously ordered products from 6:00AM to 8:00AM
+  - Most users make orders after a week from their last order. or from a month of their last order.
+  - After a week from the last order, the probability of reordering within the same month is small. 
+      - Send reminders of the most likely ordered products within a week, to catch the high prob of a customer to make their next order.
+  - The Next order has higher probability to be during 10 days from the current order.
 
