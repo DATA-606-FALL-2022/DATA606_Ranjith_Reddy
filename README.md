@@ -103,3 +103,9 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - Count of products in each department
    - ![count of products](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Piechart.png)
 
+
+### roduct Recomender
+
+   - Deployment of this application is done using Streamlit which is an open-source Python library that makes it easy to create and share beautiful,            custom web apps for machine learning and data science.
+   - 
+
