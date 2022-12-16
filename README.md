@@ -65,7 +65,7 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
       - If future order will be at the same day of prev order, percentage of reorders in the future product is high.
       - If future order will be after a week from the prev order, percentage of reorders in the future product is high.
 ### Analyzing products
-   - How often a product is purchased?
+   #### How often a product is purchased?
    - 5 Most Ordered Products
         - Banana
         - Bag of Organic Bananas
@@ -74,3 +74,13 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
         - Organic Hass Avocado
         - 14% of all orders contains bananas.  
    - Organic products are frequently ordered.
+
+  #### How often a product is the first item purchased?
+   - 5 Most Add to Cart First Products
+        - Banana
+        - Bag of Organic Bananas
+        - Organic Whole Milk
+        - Organic Strawberries
+        - Organic Hass Avocado
+   - 3.4% of the orders, Banana is being the first product added to cart. Products contianing milk have very high probability to be reordered. Organic          products have very high probability to be reordered.
+
