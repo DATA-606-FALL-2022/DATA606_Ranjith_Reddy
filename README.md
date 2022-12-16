@@ -93,5 +93,5 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
 
 ### Purchasing behaviour on Departments and Aisles
    - Count of products in each department
-   - ![count of products](https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2020/03/Instacart-Logo_0-1-1100x200.jpg)
+   - ![count of products](https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/blob/main/Images/Piechart.png)
 
