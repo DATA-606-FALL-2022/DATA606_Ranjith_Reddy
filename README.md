@@ -154,6 +154,15 @@ The dataset consists of 5 CSV files, each file describing a different aspect of 
    - For predicting whether a product is reordered or not, algorithms that predict binomial categories better can be used.
    - For predicting a multi-category variable like department, other multi-nominal algorithms can be applied.
    - New features could be created to help us generalize better on the test dataset thereby achieving better results.
+   
+   
+## Data 
+
+- https://drive.google.com/drive/u/2/folders/1cYJDqAGylRg6JQgKjMZLqRSCdl6LHnFR
+
+## Presentation
+
+- https://github.com/DATA-606-FALL-2022/DATA606_Ranjith_Reddy/tree/main/Presentations
 
 
 ## References
